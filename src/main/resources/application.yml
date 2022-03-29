@@ -1,0 +1,17 @@
+server:
+  port: 8084
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/java?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 1234
+
+
+mybatis:
+  # 实体类扫描路径
+  typeAliasesPackage: com.lcy.entry
+  # xml 扫描路径
+  mapperLocations: classpath*:mapper/*Mapper.xml
