@@ -1,7 +1,7 @@
 package com.lcy.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.lcy.entry.User;
+import com.lcy.model.User;
 import org.springframework.stereotype.Repository;
 
 /**

@@ -1,4 +1,4 @@
-package com.lcy.entry;
+package com.lcy.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -12,7 +12,7 @@ import lombok.Setter;
 @Setter
 public class User {
 
-    private int id;
+    private Integer id;
     private String name;
 
 
